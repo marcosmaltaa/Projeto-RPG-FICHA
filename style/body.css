@@ -1,0 +1,15 @@
+.corpo{
+    justify-content: center;
+    text-align: center;
+    border: none;
+    padding: 350px;
+    line-height: 50px;
+    background-image: url("../img/castelo.jpg");
+    background-size: cover;
+}
+
+.evidencia h1{
+    font-size: 50px;
+    color:white;
+    
+}
