@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 
 body{
-    background-image: url("/img/wallpaperflare.com_wallpaper.jpg");
+    background-image: url("../img/wallpaperflare.com_wallpaper.jpg");
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
