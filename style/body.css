@@ -1,15 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=MedievalSharp&display=swap');
 .corpo{
     justify-content: center;
     text-align: center;
     border: none;
-    padding: 350px;
+    padding: 300px 0 300px 0;
     line-height: 50px;
-    background-image: url("../img/castelo.jpg");
+    background-image: url("/img/castelo.jpg");
     background-size: cover;
+    box-shadow: 0 0 50px;
 }
 
 .evidencia h1{
     font-size: 50px;
     color:white;
+    font-family: 'MedievalSharp', cursive;
+    text-transform: uppercase;
     
+}
+
+.corpo .borda{
+    position: relative;
+    border-style: double;
+    border-width: 2px;
+    display:inline-block;
+    border-color: white;
+    border-radius: 8px;
+    padding: 100px;
+}
+
+.corpo .borda:hover{
+    backdrop-filter: blur(5px);
+    transition: 1s;
+}
+
+.desc_corpo{
+    color:rgb(211, 211, 211);
+    font-family: 'Cinzel', serif;
+    text-transform: lowercase;
+}
+
+
+
+.primeiro{
+    display:flex;
+    background-color: white;
+    margin-right: 600px;
+    margin-top: 200px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    border:none;
+}
+.primeiro .primeira_descricao{
+    text-align: center;
+    margin-left: 30px;
+}
+
+.primeiro .primeira_descricao h1{
+    font-size: 60px;
+}
+.primeiro .primeira_imagem{
+    display:inline;
+    align-items: end;
+    text-align: end;
+}
+.primeiro .primeira_imagem img{
+    width: 400px;
+}
+
+
+
+.segundo{
+    display:flex;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    border:none;
+}
+
+.segundo .segunda_descricao{
+    text-align: center;
+    margin-right: 30px;
+}
+
+.segundo .segunda_descricao h1{
+    font-size: 60px;
+}
+
+.segundo .segunda_imagem img{
+    width: 400px;
 }
