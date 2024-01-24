@@ -6,7 +6,7 @@
     border: none;
     padding: 300px 0 300px 0;
     line-height: 50px;
-    background-image: url("../img/castelo.jpg");
+    background-image: url("img/castelo.jpg");
     background-size: cover;
     box-shadow: 0 0 50px;
 }
