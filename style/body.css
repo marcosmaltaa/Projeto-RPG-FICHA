@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=MedievalSharp&display=swap');
 .corpo{
+    background-image: url("../img/Castelo.jpg");
     justify-content: center;
     text-align: center;
     border: none;
     padding: 300px 0 300px 0;
     line-height: 50px;
-    background-image: url("img/castelo.jpg");
     background-size: cover;
     box-shadow: 0 0 50px;
 }
